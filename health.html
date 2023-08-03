@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>healthy</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="health.css">
+    
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+
+    <body class="hero-anime">
+
+        <div class="navigation-wrap bg-light start-header start-style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+
+                            <a class="navbar-brand" href="https://front.codes/" target="_blank"><img src="" alt="logo"></a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">summaries</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">check</a>
+                                            <a class="dropdown-item" href="#">report</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">prevension</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="health.html">foods and nutrients</a>
+                                            <a class="dropdown-item" href="#">do's and don't</a>
+                                            <!-- <a class="dropdown-item" href="#"></a>
+                                            <a class="dropdown-item" href="#"></a> -->
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">diseases</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="disease.html">eye diseases  </a>
+                                            <a class="dropdown-item" href="fact.html"> facts about glaucoma</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">team</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="doctor.html">doctors </a>
+                                            <a class="dropdown-item" href="team.html">developers</a>
+
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">FAQ</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">about us</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">vizulation </a>
+                                            <a class="dropdown-item" href="#">how it work?</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">login</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Link to page
+================================================== -->
+        <script>
+            (function() {
+                // Variables
+                var $curve = document.getElementById("curve");
+                var last_known_scroll_position = 0;
+                var defaultCurveValue = 350;
+                var curveRate = 3;
+                var ticking = false;
+                var curveValue;
+
+                // Handle the functionality
+                function scrollEvent(scrollPos) {
+                    if (scrollPos >= 0 && scrollPos < defaultCurveValue) {
+                        curveValue = defaultCurveValue - parseFloat(scrollPos / curveRate);
+                        $curve.setAttribute(
+                            "d",
+                            "M 800 300 Q 400 " + curveValue + " 0 300 L 0 0 L 800 0 L 800 300 Z"
+                        );
+                    }
+                }
+
+                // Scroll Listener
+                // https://developer.mozilla.org/en-US/docs/Web/Events/scroll
+                window.addEventListener("scroll", function(e) {
+                    last_known_scroll_position = window.scrollY;
+
+                    if (!ticking) {
+                        window.requestAnimationFrame(function() {
+                            scrollEvent(last_known_scroll_position);
+                            ticking = false;
+                        });
+                    }
+
+                    ticking = true;
+                });
+            })();
+        </script>
+
+
+
+        <br><br><br><br><br>
+
+
+
+        <center>
+            <h1>
+                Relevance of food and nutrition Need for food and </br>nutrition in glaucoma Pre and post glaucoma food affects
+            </h1> <br>
+            <h2>
+                Foods for people with glaucoma
+            </h2>
+        </center>
+
+
+
+        <body>
+            <div class="rows">
+                <div class="imgWrapper">
+                    <img src="https://www.lalpathlabs.com/blog/wp-content/uploads/2019/01/Fruits-and-Vegetables.jpg" alt="">
+                </div>
+                <div class="contentWrapper">
+                    <div class="content">
+                        <span class="textWrapper">
+                    <span></span>Food for Glaucuma
+                        </span>
+                        <h2> Fruits and veggies
+                        </h2>
+                        <p>
+                            Vitamin A and C the antioxidants <u>lutein </u> and <u> zeaxanthin </u>, compounds known to protect against <u> oxidative </u> stress associated with damage to the optic nerve and other tissues of the eye in glaucoma. Leafy
+                            green veggies for leafy vegetables like kale and spinach it is not confirmed that there is a direct correlation between glaucoma and leafy vegetables but there is just an association. But is helpful on various other types of
+                            illnesses.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <br>
+
+
+
+            <div class="rows">
+
+                <div class="contentWrapper">
+                    <div class="content">
+                        <span class="textWrapper">
+                    <span></span>Food for Glaucuma
+                        </span>
+                        <h2>Nuts and seeds</h2>
+                        <p>
+                            They are helpful in regards with providing vitamin E which rejuvenates and keeps them from radical damage which might break down the protective retinal tissues. Sunflower seeds (which also help decrease the risk of age-related <u>  macular </u>                            degeneration and cataracts), almonds, hazelnuts, and pistachios (these have elevated levels of <u>  lutein  </u> and <u>  zeaxanthin </u> as well) are all great sources.
+                    </div>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="https://th.bing.com/th/id/OIP.NpznN86HY3NoC4lOpK7fYQHaFB?pid=ImgDet&rs=1" alt="">
+                </div>
+            </div>
+
+            <br>
+            <div class="rows">
+                <div class="imgWrapper">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/91b1a584826873.5d6906eb2a3d5.jpg" alt="">
+                </div>
+                <div class="contentWrapper">
+                    <div class="content">
+                        <span class="textWrapper">
+                    <span></span>Food for Glaucuma
+                        </span>
+                        <h2> Fish
+                        </h2>
+                        <p>
+                            Cod liver oil is an excellent source for Omega 3 and is if shown that higher in take-off Omega 3 reduces the risk of glaucoma related pressure in the eye.According to researchers, DHA and EPA may play a part in improving ocular blood flow, impaired systemic
+                            microcirculation and optic neuropathy, all of these associated with glaucoma. Wild-caught salmon remains one of the best natural sources of EPA and DHA along with fatty cold-water fish, such as tuna, herring, sardines and mackerel</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="rows">
+
+                <div class="contentWrapper">
+                    <div class="content">
+                        <span class="textWrapper">
+                    <span></span>Food for Glaucuma
+                        </span>
+                        <h2> Chocolate, tea, banana, etc.
+                        </h2>
+                        <p>
+                            Dark chocolate is shown to improve the vision slightly a few hours after intake. Drinking a cup of Tea, a day is said to also reduce the glaucoma. Chocolate can also be consumed in moderation. However, coffee and simple carbohydrates such as bread, potatoes,
+                            rice, baked goods, pasta, and cereal should be avoided as they can worsen glaucoma.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="https://i.pinimg.com/originals/dd/f9/b3/ddf9b3adf9e832fc776e5cc543f8acc9.jpg" alt="">
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <center>
+
+                <h2>
+                    Foods to avoid for people with glaucoma
+                </h2>
+                </br>
+            </center>
+
+
+
+            <div class="rows">
+                <div class="imgWrapper">
+                    <img src="https://th.bing.com/th/id/OIP.UA4O5h1tfRThW9qk7ODHBQHaE8?pid=ImgDet&w=650&h=434&rs=1" alt="">
+                </div>
+                <div class="contentWrapper">
+                    <div class="content">
+                        <span class="textWrapper">
+                        <span></span>
+                        </span>
+                        <h2> Food to avoid:
+                        </h2>
+                        <p>
+                            Foods that contribute to metabolic syndrome, obesity, blood pressure abnormalities, and diabetes are risk factors for primary open-angle glaucoma (POAG).</p>
+
+                        <p> Therefore, a diet that helps maintain normal blood pressure and blood glucose concentrations helps reduce substantial risk for glaucoma. Studies have also noted that an association may exist between obesity and elevated intra-ocular
+                            pressure (IOP) and ocular hypertension. There is no evidence yet indicating that losing excess weight reduces the risk for glaucoma, although significant decreases in IOP have been reported in humans through weight loss. Diets
+                            high in carbohydrates have also been correlated with a greater risk of glaucoma, while a lower intake of carbohydrates correlates with lesser risk.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <br>
+
+
+
+            <center>
+
+                <h2>
+                    The evidence for the impact of Vitamins
+                </h2>
+            </center>
+
+
+
+            <div class="rows">
+                <div class="imgWrapper">
+                    <img src="https://cliniquecme.com/wp-content/uploads/2019/07/vitamin-supplements-effect-1-768x433.jpg" alt="">
+                </div>
+                <div class="contentWrapper">
+                    <div class="content">
+                        <span class="textWrapper">
+                        <span></span>Evidence
+                        </span>
+                        <h2> Impact of Vitamins
+                        </h2>
+                        B1, C, A, E, and B12 on glaucoma is mixed. Intake of vitamin B is thus recommended through dietary sources (meat, chicken, fish, tuna, salmon, citrus, banana, watermelon, avocados, potatoes, etc.), including green leafy vegetables, which may reduce the
+                        risk of some types of glaucoma.
+
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+
+            <br>
+            <center>
+
+                <h2>
+                    The foods researchers claim certain foods important for</br> health of eye while others may prevent glaucoma include
+                </h2>
+                </br>
+                <h3>
+                    Although you already eat a healthy diet for many reasons, you can now add glaucoma prevention to the list.</br> Several research studies point to a connection between diet and a decreased risk of glaucoma in later life. Unsurprisingly,
+                    </br>many of the foods suggested are already thought to reduce the risks of many other debilitating diseases.
+
+                </h3>
+            </center>
+
+
+
+            <div class="rows">
+                <div class="imgWrapper">
+                    <img src="https://th.bing.com/th/id/OIP.ajVbXdIGGU22PsUY1hFwLAHaE7?pid=ImgDet&rs=1" alt="">
+                </div>
+                <div class="contentWrapper">
+                    <div class="content">
+                        <span class="textWrapper">
+                        <span></span>Research said
+                        </span>
+                        <h2> Dairy foods such as milk and cheese
+
+                        </h2>
+                        <p> Leafy greens such as spinach, cabbage and kale Fruits and vegetables, and more specifically, orange fruits and vegetables such as carrots and peaches Foods and liquids high in antioxidants, such as green tea, red wine, and chocolate.
+                        </p>
+
+                        <p>
+                            Foods rich in a type of vitamin A known as retinol Eggs, nuts, and citrus.
+                        </p>
+
+                        <p>
+                            It is not enough to just eat many of the foods mentioned above; you need to know which foods to avoid to reduce the risks of glaucoma and maintain good eye health, as well as improve overall health.
+                        </p>
+
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="rows">
+
+                <div class="contentWrapper">
+                    <div class="content">
+                        <span class="textWrapper">
+                    <span></span>Research said
+                        </span>
+                        <h2> Keep salt consumption to a minimum.</br> Everyone needs a little salt, but moderation is key.
+                        </h2>
+                        <p>
+
+
+                            Do not overdo the caffeine. While coffee does hold antioxidants, too much caffeine can increase blood pressure, which is especially bad if you already have glaucoma. Drink lesser amounts of liquid throughout the day instead of larger quantities at one
+                            time. Try to keep a low-calorie diet. </p>
+                    </div>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="https://images3.alphacoders.com/659/thumb-1920-659141.jpg" alt="">
+                </div>
+            </div>
+
+            <br>
+
+
+
+
+            <center>
+                <h1>
+                    General advice for maintaining eye health includes </h1>
+                </br>
+                <h2>
+                    By getting exercise and eating a varied and healthy diet </h2><br>
+                <h3>
+                    <p>
+                        It is important to note that, at this juncture, </br>the only proven method to treat glaucoma is to lower eye pressure.
+                    </p>
+                </h3>
+            </center>
+
+
+
+
+            <div class="rows">
+                <div class="imgWrapper">
+                    <img src="https://assets.shortpedia.com/Voices/wp-content/uploads/2021/01/Caffeine-and-Alcohol.jpg" alt="">
+                </div>
+                <div class="contentWrapper">
+                    <div class="content">
+                        <span class="textWrapper">
+                    <span></span>General advice
+                        </span>
+                        <h2> Caffeine and Alcohol
+                        </h2>
+                        <p>
+                            An often-asked question is whether caffeine affects eye pressure and glaucoma. It is known that caffeine can cause a several point rise in eye pressure that lasts for at least 90 minutes. However, whether that increase is of concern is best addressed
+                            between the patient and their eye doctor. A good rule of thumb is to exercise moderation with caffeine consumption. One cup of coffee is unlikely to cause any harm, but if you like to drink larger amounts of coffee consider
+                            switching some of that consumption to decaffeinated. With regards to alcohol consumption, it is known that alcohol can lower eye pressure in the short term, but there is no data to suggest that drinking alcohol reduces the
+                            risk of developing glaucoma or prevents its progression. As with almost everything, moderation is a good idea.
+                        </p>
+
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <br>
+
+
+
+            <div class="rows">
+
+                <div class="contentWrapper">
+                    <div class="content">
+                        <span class="textWrapper">
+                    <span></span>General advice
+                        </span>
+                        <h2> Antioxidants </h2>
+                        <p>
+                            As oxidative stress is thought to be an important feature of glaucoma, there have been several studies examining the relationship between antioxidant intake and glaucoma. In one prospective study, *no relationship was found between antioxidant intake,
+                            such as carotenoids, vitamin C, vitamin E, and the risk of developing glaucoma. However, there are other large studies that have shown a possible relationship between the consumption of foods rich in antioxidants, such as green
+                            leafy vegetables like kale and collards, and decreased glaucoma risk. In African-American women, there was a decreased risk of glaucoma with higher intake of certain fruits and vegetables high in vitamin A, vitamin C, and carotenoids.
+                            However more research needs to be done in this field.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="https://www.drweil.com/wp-content/uploads/2017/01/vitamins-supplements-herbs_vitamins_antioxidants-reconsidered_1440x1080_541822810-1024x768.jpeg" alt="">
+                </div>
+            </div>
+
+            <br>
+
+
+
+            <iframe src="footer.html"></iframe>
+
+        </body>
+
+</html>
+
+
+</body>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+<script src="./script.js"></script>
+
+</body>
+
+</html>

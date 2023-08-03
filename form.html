@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>forms </title>
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="form.css" rel="stylesheet">
+    <!-- FONT -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>CodePen - Responsive Bootstrap 4 menu - light/dark</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+
+    <body class="hero-anime">
+
+        <div class="navigation-wrap bg-light start-header start-style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+
+                            <a class="navbar-brand" href="https://front.codes/" target="_blank"><img src="" alt="logo"></a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">summaries</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">check</a>
+                                            <a class="dropdown-item" href="#">report</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">prevension</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="health.html">foods and nutrients</a>
+                                            <a class="dropdown-item" href="#">do's and don't</a>
+                                            <!-- <a class="dropdown-item" href="#"></a>
+                                            <a class="dropdown-item" href="#"></a> -->
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="disease.html">diseases</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">team</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="doctor.html">doctors </a>
+                                            <a class="dropdown-item" href="team.html">developers</a>
+
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">FAQ</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">about us</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">vizulation </a>
+                                            <a class="dropdown-item" href="#">how it work?</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">login</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-5 py-5">
+        </div>
+
+
+        <!-- Link to page
+================================================== -->
+<div class="container d-flex align-items-center" id="body_container">
+    <div class="row g-0 justify-content-center">
+        <!-- TITLE -->
+        <div class="col-lg-4 offset-lg-1 mx-0 px-0">
+            <div id="title-container">
+                <img class="covid-image" src="images/covid-check.png" />
+                <h2>Glaucoma</h2>
+                <h3>Self-Checker Form</h3>
+                <p>
+                    A clinical assessment multi-step form for Glaucoma detection.
+                </p>
+            </div>
+        </div>
+        <!-- FORMS -->
+        <div class="col-lg-7 mx-0 px-0">
+            <div class="progress">
+                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 0%"></div>
+            </div>
+            <div id="qbox-container">
+               <form class="needs-validation" id="form-wrapper" method="post" name="form-wrapper" novalidate="" action="process_form.php">
+
+
+                    <div id="steps-container">
+                        <div class="step">
+                            <h4>Provide us with your personal information:</h4>
+                            <div class="mt-1">
+                                <label class="form-label">Complete Name:</label>
+                                <input class="form-control" id="full_name" name="full_name" type="text" required />
+                            </div>
+                            <div class="mt-1">
+                                <label class="form-label">Occupation</label>
+                                <input class="form-control" id="occupation" name="occupation" type="text" required />
+                            </div>
+                            <div class="mt-2">
+                                <label for="address" class="form-label">Example textarea</label>
+                                <textarea class="form-control" id="address" rows="3"></textarea>
+                            </div>
+                            <div class="mt-2">
+                                <label class="form-label">Phone / Mobile Number:</label>
+                                <input class="form-control" id="phone" name="phone" type="text" required />
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-lg-2 col-md-2 col-3">
+                                    <label class="form-label">Age:</label>
+                                    <div class="input-container">
+                                        <input class="form-control" id="age" name="age" type="text" required />
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div id="input-container">
+                                        <input class="form-check-input" name="gender" type="radio" value="male" required />
+                                        <label class="form-check-label radio-lb">Male</label>
+                                        <input class="form-check-input" name="gender" type="radio" value="female" />
+                                        <label class="form-check-label radio-lb">Female</label>
+                                        <input checked class="form-check-input" name="gender" type="radio" value="undefined" />
+                                        <label class="form-check-label radio-lb">others</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Let us know how you're feeling.
+                            </h4>
+                            <div class="mt-1">
+                                <label class="form-label">What is your main complaint?</label>
+                                <input class="form-control" id="main_complaint" name="main_complaint" type="text" required />
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <h4>
+                                For how long you are having the problem?
+                            </h4>
+                            <div class="row">
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="time_1" name="how_long" type="radio" value="time_1" />
+                                        <label class="form-check-label question__label" for="time_1">Past 2 weeks or
+                                            lesser</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="time_2" name="how_long" type="radio" value="time_2" />
+                                        <label class="form-check-label question__label" for="time_2">Past 4
+                                            weeks</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="time_3" name="how_long" type="radio" value="time_3" />
+                                        <label class="form-check-label question__label" for="time_3">Past
+                                            month</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="time_4" name="how_long" type="radio" value="pale" />
+                                        <label class="form-check-label question__label" for="time_4">I'm not
+                                            sure</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Has it progressed over a period of time?
+                            </h4>
+                            <div class="form-check ps-0 q-box">
+                                <div class="q-box__question">
+                                    <input class="form-check-input question__input" id="progressed_over_time_yes" name="progressed_over_time" type="radio" value="Yes" />
+                                    <label class="form-check-label question__label" for="progressed_over_time_yes">Yes</label>
+                                </div>
+                                <div class="q-box__question">
+                                    <input checked class="form-check-input question__input" id="progressed_over_time_no" name="progressed_over_time" type="radio" value="No" />
+                                    <label class="form-check-label question__label" for="progressed_over_time_no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Do you have any associated problems?
+                            </h4>
+                            <div class="form-check ps-0 q-box">
+                                <div class="q-box__question">
+                                    <input class="form-check-input question__input" id="associated_problems_yes" name="associated_problems" type="radio" value="Yes" />
+                                    <label class="form-check-label question__label" for="associated_problems_yes">Yes</label>
+                                </div>
+                                <div class="q-box__question">
+                                    <input checked class="form-check-input question__input" id="associated_problems_no" name="associated_problems" type="radio" value="No" />
+                                    <label class="form-check-label question__label" for="associated_problems_no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                What is the duration of those problems?
+                            </h4>
+                            <div class="row">
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="dura_1" name="dura" type="radio" value="dura_1" />
+                                        <label class="form-check-label question__label" for="dura_1">Past 2 weeks or
+                                            lesser</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="dura_2" name="dura" type="radio" value="dura_2" />
+                                        <label class="form-check-label question__label" for="dura_2">Past 4
+                                            weeks</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="dura_3" name="dura" type="radio" value="dura_3" />
+                                        <label class="form-check-label question__label" for="dura_3">Past
+                                            month</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="dura_4" name="dura" type="radio" value="dura_4" />
+                                        <label class="form-check-label question__label" for="dura_4">I'm not
+                                            sure</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Is it associated with?
+                            </h4>
+                            <div class="row">
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="redness" name="disease" type="checkbox" value="redness" />
+                                        <label class="form-check-label question__label" for="redness">Redness of the eye</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="pain" name="disease" type="checkbox" value="pain" />
+                                        <label class="form-check-label question__label" for="pain">Pain</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="halos" name="disease" type="checkbox" value="halos" />
+                                        <label class="form-check-label question__label" for="halos">Halos around light</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="nota" name="disease" type="checkbox" value="nota" />
+                                        <label class="form-check-label question__label" for="nota">None of the above</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Any time you had sudden exacerbation of the problem?
+                            </h4>
+                            <div class="form-check ps-0 q-box">
+                                <div class="q-box__question">
+                                    <input class="form-check-input question__input" id="exacerbation_yes" name="exacerbation" type="radio" value="Yes" />
+                                    <label class="form-check-label question__label" for="exacerbation_yes">Yes</label>
+                                </div>
+                                <div class="q-box__question">
+                                    <input checked class="form-check-input question__input" id="exacerbation_no" name="exacerbation" type="radio" value="No" />
+                                    <label class="form-check-label question__label" for="exacerbation_no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Are you suffering from any co-morbidites like diabetes, hypertension, hypo or hyper-thyroidism, any breathing problems or any kidney or heart problems?
+                            </h4>
+                            <div class="form-check ps-0 q-box">
+                                <div class="q-box__question">
+                                    <input class="form-check-input question__input" id="co-morbidites_yes" name="comorbidites" type="radio" value="Yes" />
+                                    <label class="form-check-label question__label" for="co-morbidites_yes">Yes</label>
+                                </div>
+                                <div class="q-box__question">
+                                    <input checked class="form-check-input question__input" id="co-morbidites_no" name="comorbidites" type="radio" value="No" />
+                                    <label class="form-check-label question__label" for="co-morbidites_no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Any of your family members have similar problems?
+                            </h4>
+                            <div class="form-check ps-0 q-box">
+                                <div class="q-box__question">
+                                    <input class="form-check-input question__input" id="family_yes" name="family" type="radio" value="Yes" />
+                                    <label class="form-check-label question__label" for="family_yes">Yes</label>
+                                </div>
+                                <div class="q-box__question">
+                                    <input checked class="form-check-input question__input" id="family_no" name="family" type="radio" value="No" />
+                                    <label class="form-check-label question__label" for="family_no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Did you show to any doctor for this problem?
+                            </h4>
+                            <div class="form-check ps-0 q-box">
+                                <div class="q-box__question">
+                                    <input class="form-check-input question__input" id="doctor_yes" name="doctor" type="radio" value="Yes" />
+                                    <label class="form-check-label question__label" for="doctor_yes">Yes</label>
+                                </div>
+                                <div class="q-box__question">
+                                    <input checked class="form-check-input question__input" id="doctor_no" name="doctor" type="radio" value="No" />
+                                    <label class="form-check-label question__label" for="doctor_no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Have you been taking medicines for this problem?
+                            </h4>
+                            <div class="form-check ps-0 q-box">
+                                <div class="q-box__question">
+                                    <input class="form-check-input question__input" id="medicines_yes" name="medicines" type="radio" value="Yes" />
+                                    <label class="form-check-label question__label" for="medicines_yes">Yes</label>
+                                </div>
+                                <div class="q-box__question">
+                                    <input checked class="form-check-input question__input" id="medicines_no" name="medicines" type="radio" value="No" />
+                                    <label class="form-check-label question__label" for="medicines_no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Are you taking any long-term medicines for any problem?
+                            </h4>
+                            <div class="form-check ps-0 q-box">
+                                <div class="q-box__question">
+                                    <input class="form-check-input question__input" id="long_yes" name="long" type="radio" value="Yes" />
+                                    <label class="form-check-label question__label" for="long_yes">Yes</label>
+                                </div>
+                                <div class="q-box__question">
+                                    <input checked class="form-check-input question__input" id="long_no" name="long" type="radio" value="No" />
+                                    <label class="form-check-label question__label" for="long_no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Any general investigations you have got done?
+                            </h4>
+                            <div class="form-check ps-0 q-box">
+                                <div class="q-box__question">
+                                    <input class="form-check-input question__input" id="investigations_yes" name="investigations" type="radio" value="Yes" />
+                                    <label class="form-check-label question__label" for="investigations_yes">Yes</label>
+                                </div>
+                                <div class="q-box__question">
+                                    <input checked class="form-check-input question__input" id="investigations_no" name="investigations" type="radio" value="No" />
+                                    <label class="form-check-label question__label" for="investigations_no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <h4>
+                                Have you been diagnosed with any of the following diagnosis? [If yes please check the boxes accordingly]
+                            </h4>
+                            <div class="row">
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="diabetic" name="diagnosis" type="checkbox" value="diabetic_retinopathy" />
+                                        <label class="form-check-label question__label" for="diabetic">Diabetic Retinopathy</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="hypertensive" name="diagnosis" type="checkbox" value="hypertensive_retinopathy" />
+                                        <label class="form-check-label question__label" for="hypertensive">Hypertensive Retinopathy</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="age_related" name="diagnosis" type="checkbox" value="age_related_macular_degenerations" />
+                                        <label class="form-check-label question__label" for="age_related">Age Related Macular Degenerations</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="macular_hole" name="diagnosis" type="checkbox" value="macular_hole" />
+                                        <label class="form-check-label question__label" for="macular_hole">Macular Hole</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="glaucoma" name="diagnosis" type="checkbox" value="glaucoma" />
+                                        <label class="form-check-label question__label" for="glaucoma">Glaucoma</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="cataract" name="diagnosis" type="checkbox" value="cataract" />
+                                        <label class="form-check-label question__label" for="cataract">Cataract</label>
+                                    </div>
+                                </div>
+                                <div class="form-check ps-0 q-box">
+                                    <div class="q-box__question">
+                                        <input class="form-check-input question__input" id="uveitis" name="diagnosis" type="checkbox" value="uveitis" />
+                                        <label class="form-check-label question__label" for="uveitis">Uveitis</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css'>
+                        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css'>
+                        <div class="step">
+                            <h4>
+                                Upload your eye pic
+                            </h4>
+
+                            <div class="form-group" x-data="{ fileName: '' }">
+                                <div class="input-group shadow">
+                                    <span class="input-group-text px-3 text-muted"><i class="fas fa-image fa-lg"></i></span>
+                                    <input type="file" x-ref="file" @change="fileName = $refs.file.files[0].name" name="img[]" class="d-none">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Upload Image" x-model="fileName">
+                                    <button class="browse btn btn-primary px-4" type="button" x-on:click.prevent="$refs.file.click()"><i class="fas fa-image"></i> Browse</button>
+                                </div>
+                            </div>
+
+
+                            <script src='https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js'></script>
+
+
+                        </div>
+
+
+                        <div class="step">
+                            <div class="mt-1">
+                                <div class="closing-text">
+                                    <h4>That's about it! Stay healthy!</h4>
+                                    <p>
+                                        We will assess your information and will let you know soon if you need to get tested for COVID-19.
+                                    </p>
+                                    <p>Click on the submit button to continue.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="success">
+                            <div class="mt-5">
+                                <h4>Success! We'll get back to you ASAP!</h4>
+                                <p>
+                                    Meanwhile, clean your hands often, use soap and water, or an alcohol-based hand rub, maintain a safe distance from anyone who is coughing or sneezing and always wear a mask when physical distancing is not possible.
+                                </p>
+                                <a class="back-link" href="index.html">Go back from the beginning ➜</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="q-box__buttons">
+                        <button id="prev-btn" type="button">Previous</button>
+                        <button id="next-btn" type="button">Next</button>
+                        <button id="submit-btn" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="preloader-wrapper">
+    <div id="preloader"></div>
+    <div class="preloader-section section-left"></div>
+    <div class="preloader-section section-right"></div>
+</div>
+
+<script type="text/javascript" src="js/form.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script type="text/javascript" src="./mail.js"></script>
+
+
+
+    </body>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+    <script src="./script.js"></script>
+
+    <script>
+        // Get the form element
+var form = document.getElementById('form-wrapper');
+
+// Add event listener for form submission
+form.addEventListener('submit', function(event) {
+    // Prevent the form from submitting
+    event.preventDefault();
+    
+    // Perform form validation
+    if (validateForm()) {
+        // If the form is valid, you can submit it or perform any other action
+        form.submit();
+    }
+});
+
+// Function to validate the form
+function validateForm() {
+    // Get the form inputs
+    var fullName = document.getElementById('full_name');
+    var occupation = document.getElementById('occupation');
+    var address = document.getElementById('address');
+    var phone = document.getElementById('phone');
+    var age = document.getElementById('age');
+    var gender = document.querySelector('input[name="gender"]:checked');
+    var mainComplaint = document.getElementById('main_complaint');
+    var howLong = document.querySelector('input[name="how_long"]:checked');
+    var progressedOverTime = document.querySelector('input[name="progressed_over_time"]:checked');
+    var associatedProblems = document.querySelector('input[name="associated_problems"]:checked');
+
+    // Initialize a flag to track form validity
+    var isValid = true;
+
+    // Perform individual input validation
+    if (fullName.value.trim() === '') {
+        isValid = false;
+        fullName.classList.add('is-invalid');
+    } else {
+        fullName.classList.remove('is-invalid');
+    }
+
+    if (occupation.value.trim() === '') {
+        isValid = false;
+        occupation.classList.add('is-invalid');
+    } else {
+        occupation.classList.remove('is-invalid');
+    }
+
+    // Perform validation for other input fields in a similar manner
+    
+    // Return the overall form validity
+    return isValid;
+}
+
+
+
+
+
+
+
+// Get form element
+var form = document.querySelector('form');
+
+// Add submit event listener to the form
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Validate duration
+    var durationInputs = document.querySelectorAll('input[name="dura"]');
+    var durationSelected = false;
+    for (var i = 0; i < durationInputs.length; i++) {
+        if (durationInputs[i].checked) {
+            durationSelected = true;
+            break;
+        }
+    }
+    if (!durationSelected) {
+        alert('Please select the duration of the problems.');
+        return;
+    }
+
+    // Validate associated symptoms
+    var symptomsInputs = document.querySelectorAll('input[name="disease"]');
+    var symptomsSelected = false;
+    for (var i = 0; i < symptomsInputs.length; i++) {
+        if (symptomsInputs[i].checked) {
+            symptomsSelected = true;
+            break;
+        }
+    }
+    if (!symptomsSelected) {
+        alert('Please select at least one associated symptom.');
+        return;
+    }
+
+    // Validate exacerbation
+    var exacerbationInputs = document.querySelectorAll('input[name="exacerbation"]');
+    var exacerbationSelected = false;
+    for (var i = 0; i < exacerbationInputs.length; i++) {
+        if (exacerbationInputs[i].checked) {
+            exacerbationSelected = true;
+            break;
+        }
+    }
+    if (!exacerbationSelected) {
+        alert('Please select whether you had sudden exacerbation of the problem.');
+        return;
+    }
+
+    // Validate co-morbidities
+    var comorbiditiesInputs = document.querySelectorAll('input[name="comorbidites"]');
+    var comorbiditiesSelected = false;
+    for (var i = 0; i < comorbiditiesInputs.length; i++) {
+        if (comorbiditiesInputs[i].checked) {
+            comorbiditiesSelected = true;
+            break;
+        }
+    }
+    if (!comorbiditiesSelected) {
+        alert('Please select whether you have any co-morbidities.');
+        return;
+    }
+
+    // Validate family history
+    var familyInputs = document.querySelectorAll('input[name="family"]');
+    var familySelected = false;
+    for (var i = 0; i < familyInputs.length; i++) {
+        if (familyInputs[i].checked) {
+            familySelected = true;
+            break;
+        }
+    }
+    if (!familySelected) {
+        alert('Please select whether any of your family members have similar problems.');
+        return;
+    }
+
+    // If all validations pass, submit the form
+    form.submit();
+});
+
+
+
+
+// Get form elements
+const form = document.getElementById('your-form-id');
+const doctorYes = document.getElementById('doctor_yes');
+const medicinesYes = document.getElementById('medicines_yes');
+const longYes = document.getElementById('long_yes');
+const investigationsYes = document.getElementById('investigations_yes');
+
+// Function to validate the form
+function validateForm() {
+  let isValid = true;
+
+  // Validate "Did you show to any doctor for this problem?"
+  if (!doctorYes.checked && !doctorNo.checked) {
+    isValid = false;
+    // Display error message for this question
+    // Example: document.getElementById('doctor-error').textContent = 'Please select an option.';
+  }
+
+  // Validate "Have you been taking medicines for this problem?"
+  if (!medicinesYes.checked && !medicinesNo.checked) {
+    isValid = false;
+    // Display error message for this question
+    // Example: document.getElementById('medicines-error').textContent = 'Please select an option.';
+  }
+
+  // Validate "Are you taking any long-term medicines for any problem?"
+  if (!longYes.checked && !longNo.checked) {
+    isValid = false;
+    // Display error message for this question
+    // Example: document.getElementById('long-error').textContent = 'Please select an option.';
+  }
+
+  // Validate "Any general investigations you have got done?"
+  if (!investigationsYes.checked && !investigationsNo.checked) {
+    isValid = false;
+    // Display error message for this question
+    // Example: document.getElementById('investigations-error').textContent = 'Please select an option.';
+  }
+
+  // Add more validation for other form elements...
+
+  return isValid;
+}
+
+// Event listener for form submission
+form.addEventListener('submit', function (event) {
+  event.preventDefault(); // Prevent form submission if validation fails
+
+  if (validateForm()) {
+    // Form is valid, submit it or perform other actions
+    form.submit();
+  }
+});
+    </script>
+
+</body>
+
+</html>
